@@ -21,3 +21,22 @@ print("Current Day is = ",day2)
 print("Your Current Age is = ",year)
 print("Your Current Month is = ",month)
 print("Your Current Day is = ",day)
+
+
+
+sum = month2-month1
+sum1 = (12-month1)+(month2)
+sum2 = day1-day2
+sum3 = ((31-day1)+day2)
+
+if month2<month1
+   print(sum,'months')
+else : 
+    month2>month1
+    print(sum1,'months')
+
+if day2<day1
+   print(sum2,'days')
+else : 
+    day2>day1
+    print(sum3,'days')
