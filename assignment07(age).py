@@ -30,7 +30,7 @@ sum2 = day1-day2
 sum3 = ((31-day1)+day2)
 
 if month2<month1
-   print(sum,'months')
+   print(sum,'months') 
 else : 
     month2>month1
     print(sum1,'months')
