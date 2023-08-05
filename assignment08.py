@@ -1,6 +1,8 @@
 # Add
 a=0
-for num in range(1,11):
+start = int(input('Enter starting range = '))
+end = int(input('Enter ending renge = '))
+for num in range(start,end+1):
     a=num+a
     print(a,end=' ')
 
@@ -14,20 +16,21 @@ for x in range(1,10+1):
 
 
 #counting alphabets 
-num1=0
+mum=0
 name=str(input('Enter a word '))
 for a in name:
-    num1 = num1+1
-    print("Your total number of wrods is ",num1 )
+    mum = mum+1
+    print("Your total number of wrods is ",mum )
 
 
 #counting number
-a2=0
-total= 0
-sum=int(input("Enter Numbers "))
-for i in sum:
-    total= total +1 
-
+b=0
+sum = str(input("Enter Numbers "))
+for l in sum :
+    b= b +1 
+print('total no. are = ',b)
 
 
 #reverse number
+no = int(input("Enter Numbers = "))
+print(str(no)[::-1])
