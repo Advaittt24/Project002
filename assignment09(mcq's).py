@@ -13,7 +13,7 @@ if s_pwd == n_pwd:
         if answer1 == 3:
             print('Your are Passed ')
         else:
-             answer1 != 2
+             answer1 != 3
              print('Try Next Year')
     else:
         answer0 != 2
@@ -31,7 +31,7 @@ elif s_pwd != n_pwd:
                     if answer1 == 3:
                         print('Your are Passed ')
                     else:
-                        answer1 != 2
+                        answer1 != 3
                         print('Try Next Year')
              else:
                     answer0 != 2
@@ -49,7 +49,7 @@ elif s_pwd != n_pwd:
                     if answer1 == 3:
                         print('Your are Passed ')
                     else:
-                        answer1 != 2
+                        answer1 != 3
                         print('Try Next Year')
              else:
                     answer0 != 2
@@ -67,7 +67,7 @@ elif s_pwd != n_pwd:
                     if answer1 == 3:
                         print('Your are Passed ')
                     else:
-                        answer1 != 2
+                        answer1 != 3
                         print('Try Next Year')
              else:
                     answer0 != 2
