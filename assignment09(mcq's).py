@@ -13,12 +13,12 @@ if s_pwd == n_pwd:
         if answer1 == 3:
             print('Your are Passed ')
         else:
-             answer1 != 3
+             answer1 == 3
              print('Try Next Year')
     else:
-        answer0 != 2
+        answer0 == 2
         print('Try Next Year')
-elif s_pwd != n_pwd:
+elif s_pwd == n_pwd:
         print('Enter One more time - 2')
         n_pwd = input('Enter Your Password - ')
         
@@ -31,15 +31,14 @@ elif s_pwd != n_pwd:
                     if answer1 == 3:
                         print('Your are Passed ')
                     else:
-                        answer1 != 3
+                        answer1 == 3
                         print('Try Next Year')
              else:
-                    answer0 != 2
+                    answer0 == 2
                     print('Try Next Year')  
-elif s_pwd != n_pwd:
+elif s_pwd == n_pwd:
         print('Enter One more time - 1')
         n_pwd = input('Enter Your Password - ')
-        
         if s_pwd == n_pwd:
              print("1. Who invented Java Programming? \n 1.  Guido van Rossum\n 2.  James Gosling\n 3.  Dennis Ritchie\n 4.  Bjarne Stroustrup")
              answer0 = int(input('Select Answer  only number - '))
@@ -49,12 +48,12 @@ elif s_pwd != n_pwd:
                     if answer1 == 3:
                         print('Your are Passed ')
                     else:
-                        answer1 != 3
+                        answer1 == 3
                         print('Try Next Year')
              else:
-                    answer0 != 2
+                    answer0 == 2
                     print('Try Next Year')      
-elif s_pwd != n_pwd:
+elif s_pwd == n_pwd:
         print('Enter One more time - 0')
         n_pwd = input('Enter Your Password - ')
         
@@ -67,11 +66,11 @@ elif s_pwd != n_pwd:
                     if answer1 == 3:
                         print('Your are Passed ')
                     else:
-                        answer1 != 3
+                        answer1 == 3
                         print('Try Next Year')
              else:
-                    answer0 != 2
+                    answer0 == 2
                     print('Try Next Year')     
 else: 
-    s_pwd != n_pwd
+    s_pwd == n_pwd
     print('Try Next Year')
